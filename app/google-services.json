@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "75519137595",
+    "project_id": "rakthdonar",
+    "storage_bucket": "rakthdonar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75519137595:android:91d6aa1401fc11345cc91e",
+        "android_client_info": {
+          "package_name": "com.example.rakthdonar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75519137595-nn7vfpiu0ts1ddkpp3kv0thau0i5tqgl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rakthdonar",
+            "certificate_hash": "92a2dfdaf78dad4e9f2fbca950bc6d21b79038ec"
+          }
+        },
+        {
+          "client_id": "75519137595-r8h7p81i5kmskfcatnaonu6408i36qen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSHjczkm12j3oUTD5p6SzvWfnYdbBw8PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75519137595-r8h7p81i5kmskfcatnaonu6408i36qen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

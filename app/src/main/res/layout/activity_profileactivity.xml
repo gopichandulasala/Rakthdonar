@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profileactivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        android:background="@drawable/profile">
+
+        <ImageView
+            android:id="@+id/profilepic"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/profilepic"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_account_circle_24" />
+
+        <Button
+            android:id="@+id/imgbutton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/profilepic"
+            android:background="@color/white"
+            android:paddingRight="1dp"
+            android:text="Choose Image"
+            android:textColor="@color/blood" />
+
+    </RelativeLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp">
+        <TableRow>
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood group"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:paddingRight="20dp"/>
+            <EditText
+                android:id="@+id/bloodgroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Blood group" />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="number" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sex"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TableLayout>
+            <RadioGroup
+                android:id="@+id/sex"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Female" />
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/others"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Others" />
+            </RadioGroup>
+
+            </TableLayout>
+
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recently donated"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/recentlydonated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                />
+
+        </TableRow>
+        <TableRow>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/location"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Location"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/Locationbutt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text=" Choose Location"/>
+
+        </TableRow>
+        <TableRow>
+
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#101210"
+        android:text="Submit"
+        android:textColor="@color/white"/>
+
+
+
+</LinearLayout>
